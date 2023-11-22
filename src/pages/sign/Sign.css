@@ -1,0 +1,11 @@
+.back-opacity{
+    opacity: .7;
+}
+
+.outer-box{
+    height: 72vh;
+    width: 35vw;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+}

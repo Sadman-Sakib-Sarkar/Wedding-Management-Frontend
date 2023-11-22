@@ -1,0 +1,30 @@
+// https://bit.ly/3aI9YSD - universal box-sizing with inheritance.
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../assets/BG.png");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  // https://mzl.la/2KnTfHh
+  // size/line-height | family
+  font-family: 'Roboto', sans-serif;
+  font: 16px 'Roboto', 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+/*
+  Add your custom global styles here.
+  The styles provided below are a minimal suggested starting point.
+*/
